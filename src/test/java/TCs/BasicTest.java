@@ -1,7 +1,6 @@
 package TCs;
 
-import Pages.MainPage;
-import Pages.RegPage;
+import Pages.*;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.WorkbookSettings;
@@ -22,8 +21,11 @@ public abstract class BasicTest {
     @BeforeMethod
     public void before(){
         //System.setProperty("webdriver.chrome.driver",this.getClass().getClassLoader().getResource("chromedriver.exe"));
-        System.setProperty("webdriver.chrome.driver","C:\\Selenide\\chromedriver.exe");
 
+
+        System.setProperty("webdriver.chrome.driver", "src\\test\\Resources\\chromedriver.exe");
+
+        //System.setProperty("webdriver.chrome.driver","C:\\Selenide\\chromedriver.exe");
         System.setProperty("selenide.browser","Chrome");
 
 
@@ -32,6 +34,15 @@ public abstract class BasicTest {
 
     MainPage mp = new MainPage();
     RegPage rg = new RegPage();
+    OpenNewAccountPage ona = new OpenNewAccountPage();
+    AccountsOverviewPage aop = new AccountsOverviewPage();
+    AccountDetailsPage adp = new AccountDetailsPage();
+
+
+
+
+
+
 
 
 
