@@ -3,10 +3,10 @@ package TCs;
 import TCs.BasicTest;
 import org.testng.annotations.Test;
 
-public class CreateAccount extends BasicTest {
+public class CreateUser extends BasicTest {
 
 
-    public CreateAccount() throws Exception {
+    public CreateUser() throws Exception {
     }
 
     @Test(dataProvider = "inputData")

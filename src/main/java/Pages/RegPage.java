@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class RegPage {
+public class RegPage extends CommonPage{
 
 
     private SelenideElement fn = $(By.id("customer.firstName"));
