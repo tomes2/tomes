@@ -11,12 +11,17 @@ public class AccountDetailsPage extends CommonPage {
 
 
     private SelenideElement createdAccNumber = $(By.id("accountId"));
+    //String accountNumberVal = newAccNr;  //pomocnicza zmienna dla assert
 
 
     public AccountDetailsPage test() throws InterruptedException {
-        System.out.println(createdAccNumber.waitUntil(Condition.visible, 30000, 5).getText());
-        System.out.println("zmienna "+newAccNr);
-        Thread.sleep(5000);
+        String s1 = createdAccNumber.waitUntil(Condition.visible, 30000, 5).getText();
+
+
+        //System.out.println(createdAccNumber.waitUntil(Condition.visible, 30000, 5).getText());
+        //System.out.println("zmienna "+newAccNr);
+        System.out.println(s1.equals(newAccNr));
+        //Thread.sleep(5000);
         return this;
     }
 

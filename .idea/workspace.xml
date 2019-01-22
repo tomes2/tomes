@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8371dd18-f3b6-47dd-9552-8cd9b382db9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/tomes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AccountsOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/CommonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/OpenNewAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/FindTransPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/SearchTranResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TCs/FindTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/RegPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/RegPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resources/Input.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/Input.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TCs/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TCs/BasicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TCs/CreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TCs/CreateUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/AccountDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/AccountDetailsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Pages/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/AccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/RegPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/RegPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/AccountsOverviewPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/AccountsOverviewPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Input.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Input.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TCs/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TCs/BasicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TCs/CreateAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TCs/OpenNewAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TCs/OpenNewAccount.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,30 +30,38 @@
     <session id="1274277995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="class" value="1" />
+          <entry key="java" value="29" />
+          <entry key="tests" value="3" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="29" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37" />
+          <entry key="java" value="762" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37" />
+          <entry key="JAVA" value="762" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -99,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="374">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -108,11 +110,89 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="489">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TCs/CreateUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/OpenNewAccountPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TCs/FindTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TCs/BasicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1649">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/FindTransPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SearchTranResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AccountsOverviewPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -136,16 +216,20 @@
         <option value="$PROJECT_DIR$/src/test/java/TCs/CreateAccount.java" />
         <option value="$PROJECT_DIR$/src/test/java/TCs/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/TCs/CreateUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/CommonPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/RegPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/AccountPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/AccountDetails.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TCs/BasicTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/OpenNewAccountPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/AccountsOverviewPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/CommonPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TCs/BasicTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/AccountPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/FindTransPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/SearchTranResult.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TCs/FindTransaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java" />
+        <option value="$PROJECT_DIR$/tests.xml" />
       </list>
     </option>
   </component>
@@ -157,10 +241,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="623" />
-    <option name="y" value="38" />
-    <option name="width" value="1945" />
-    <option name="height" value="1057" />
+    <option name="x" value="621" />
+    <option name="y" value="36" />
+    <option name="width" value="1947" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -176,62 +260,39 @@
         <subPane>
           <expand>
             <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TCs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tomes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tomes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenide" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +301,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546363094146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548155086301" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,86 +315,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="TestNG.OpenNewAccount">
-    <configuration name="CreateAccount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TCs" />
-      <option name="MAIN_CLASS_NAME" value="TCs.CreateAccount" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tomes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TCs" />
-      <option name="MAIN_CLASS_NAME" value="TCs.CreateUser" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tomes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TCs" />
-      <option name="MAIN_CLASS_NAME" value="TCs.Login" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenNewAccount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="tomes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TCs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TCs" />
-      <option name="MAIN_CLASS_NAME" value="TCs.OpenNewAccount" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="TestNG.CreateAccount" />
-      <item itemvalue="TestNG.Login" />
-      <item itemvalue="TestNG.CreateUser" />
-      <item itemvalue="TestNG.OpenNewAccount" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.OpenNewAccount" />
-        <item itemvalue="TestNG.CreateUser" />
-        <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.CreateAccount" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -348,42 +330,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenNewAccount - 2019.01.01 at 17h 38m 08s.xml">
+    <history-entry file="CreateUser - 2019.01.22 at 10h 25m 17s.xml">
+      <configuration name="CreateUser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenNewAccount - 2019.01.22 at 10h 26m 12s.xml">
       <configuration name="OpenNewAccount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 17h 42m 15s.xml">
+    <history-entry file="CreateUser - 2019.01.22 at 10h 57m 42s.xml">
+      <configuration name="CreateUser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenNewAccount - 2019.01.22 at 10h 58m 08s.xml">
       <configuration name="OpenNewAccount" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 17h 52m 16s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
+    <history-entry file="FindTransaction - 2019.01.22 at 10h 58m 50s.xml">
+      <configuration name="FindTransaction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 17h 54m 57s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
+    <history-entry file="FindTransaction - 2019.01.22 at 11h 00m 22s.xml">
+      <configuration name="FindTransaction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 18h 05m 04s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
+    <history-entry file="FindTransaction - 2019.01.22 at 11h 00m 43s.xml">
+      <configuration name="FindTransaction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 18h 08m 48s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
+    <history-entry file="FindTransaction - 2019.01.22 at 11h 01m 41s.xml">
+      <configuration name="FindTransaction" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 18h 09m 54s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
+    <history-entry file="TCs - 2019.01.22 at 11h 47m 05s.xml">
+      <configuration name="TCs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 18h 11m 48s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 18h 14m 24s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenNewAccount - 2019.01.01 at 18h 15m 22s.xml">
-      <configuration name="OpenNewAccount" configurationId="TestNG" />
+    <history-entry file="CreateUser - 2019.01.22 at 11h 56m 39s.xml">
+      <configuration name="CreateUser" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23643725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32749563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,7 +381,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32749563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -461,26 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/CreateUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CommonPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -488,16 +449,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/BasicTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.0.0/selenide-5.0.0.jar!/com/codeborne/selenide/impl/WebElementSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="243">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CommonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/tests" />
+    <entry file="file://$PROJECT_DIR$/tests" />
+    <entry file="file://$PROJECT_DIR$/tests.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/CreateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -506,45 +495,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/OpenNewAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/FindTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/FindTransPage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="54" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="54" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AccountPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SearchTranResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="51">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TCs/OpenNewAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AccountsOverviewPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AccountDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="489">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

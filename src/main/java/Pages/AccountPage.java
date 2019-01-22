@@ -7,11 +7,12 @@ import org.testng.Assert;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class AccountPage extends CommonPage{
+public class AccountPage extends CommonPage {
 
 
     private SelenideElement title = $(By.xpath("//h1[@class='title']"));
     private SelenideElement openNewAccount = $(By.xpath("//a[contains(@href,'/parabank/openaccount.htm')]"));
+    private SelenideElement findTrans = $(By.xpath("//a[contains(@href,'/parabank/findtrans.htm')]"));
 
 
     public void assertAccount() {   //assertion for login
@@ -25,6 +26,13 @@ public class AccountPage extends CommonPage{
         openNewAccount.waitUntil(Condition.visible, 20000, 4).click();
 
         return new OpenNewAccountPage();
+    }
+
+
+    public FindTransPage openFindTrans() {
+
+        findTrans.waitUntil(Condition.visible, 30000, 5).click();
+        return new FindTransPage();
     }
 
 

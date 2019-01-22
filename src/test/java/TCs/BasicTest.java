@@ -99,7 +99,11 @@ public abstract class BasicTest {
         return arrayObject;
     }
 
-
+    @DataProvider
+    public Object[][] inputFindTran() {
+        Object[][] arrayObject = getExcelData(this.getClass().getClassLoader().getResource("Input.xls").getPath(), "FindTran");
+        return arrayObject;
+    }
 
 
 
