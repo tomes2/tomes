@@ -26,8 +26,12 @@ public class AccountDetailsPage extends CommonPage {
     }
 
     public void assertAccountNumber() {   //assertion for created account
-
         Assert.assertEquals(createdAccNumber.waitUntil(Condition.visible, 30000, 5).getText(), newAccNr);
+    }
+
+    public AccountDetailsPage assertCheck(){
+        newAccNr.equals(createdAccNumber.waitUntil(Condition.visible, 30000, 5).getText());
+      return this;
     }
 
 

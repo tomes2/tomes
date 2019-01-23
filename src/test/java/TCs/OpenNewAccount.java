@@ -21,11 +21,9 @@ public class OpenNewAccount extends BasicTest {
                 .saveNewAccId()
                 .openAccountsOverview()
                 .openAccountDetails()
-               // .test()
-                .assertAccountNumber();
-
-
-
+                // .test()
+                // .assertAccountNumber();
+                .assertCheck();
 
 
     }

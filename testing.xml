@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestALL">
+
+    <test name="AddUser">
+        <classes>
+            <class name="TCs.CreateUser"/>
+        </classes>
+    </test>
+
+    <test name="AddAcount">
+        <classes>
+            <class name="TCs.OpenNewAccount"/>
+        </classes>
+    </test>
+
+</suite>
