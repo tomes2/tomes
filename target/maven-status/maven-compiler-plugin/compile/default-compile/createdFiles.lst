@@ -1,0 +1,9 @@
+Pages\MainPage.class
+Pages\RegPage.class
+Pages\AccountsOverviewPage.class
+Pages\OpenNewAccountPage.class
+Pages\AccountDetailsPage.class
+Pages\SearchTranResult.class
+Pages\FindTransPage.class
+Pages\AccountPage.class
+Pages\CommonPage.class

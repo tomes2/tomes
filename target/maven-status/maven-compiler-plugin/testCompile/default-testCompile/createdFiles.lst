@@ -1,0 +1,5 @@
+TCs\CreateUser.class
+TCs\OpenNewAccount.class
+TCs\Login.class
+TCs\FindTransaction.class
+TCs\BasicTest.class

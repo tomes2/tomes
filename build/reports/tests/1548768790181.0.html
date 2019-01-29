@@ -1,0 +1,180 @@
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ --><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>ParaBank | Open Account</title>
+		<link href="/parabank/template.css" rel="stylesheet" type="text/css" />
+		<link href="/parabank/style.css" rel="stylesheet" type="text/css" />
+		<script src="/parabank/webjars/angularjs/1.6.9/angular.min.js"></script>
+	</head>
+
+	<body>
+		<div id="mainPanel">
+			
+				
+				
+					
+
+
+
+<div id="topPanel">
+  <a href="/parabank/admin.htm"><img src="/parabank/images/clear.gif" width="56" height="42" border="0" class="admin" /></a>
+  <a href="/parabank/index.htm"><img src="/parabank/images/logo.gif" alt="ParaBank" width="136" height="31" border="0" class="logo" title="ParaBank" /></a>
+  <p class="caption">Experience the difference</p>
+</div>
+<div id="headerPanel" style="background: url(/parabank/images/header-customer.jpg) 0 0 no-repeat;">
+  
+
+
+<ul class="leftmenu">
+  <li class="Solutions">Solutions</li>
+  <li><a href="about.htm">About Us</a></li>
+  <li><a href="services.htm">Services</a></li>
+  <li><a href="http://www.parasoft.com/jsp/products.jsp">Products</a></li>
+  <li><a href="http://www.parasoft.com/jsp/pr/contacts.jsp">Locations</a></li>
+  <li><a href="admin.htm">Admin Page</a></li>
+  
+</ul>
+  
+
+
+<ul class="button">
+  <li class="home"><a href="/parabank/index.htm">home</a></li>
+  <li class="aboutus"><a href="about.htm">about</a></li>
+  <li class="contact"><a href="contact.htm">contact</a></li>
+</ul>
+</div>
+				
+			
+			<div id="bodyPanel">
+				<div id="leftPanel">
+					
+						
+						
+							
+
+
+<p class="smallText"><b>Welcome</b> stefan cutasiewicz</p>
+
+<h2>Account Services</h2>
+
+
+
+<ul>
+  <li><a href="/parabank/openaccount.htm">Open New Account</a></li>
+  <li><a href="/parabank/overview.htm">Accounts Overview</a></li>
+  <li><a href="/parabank/transfer.htm">Transfer Funds</a></li>
+  <li><a href="/parabank/billpay.htm">Bill Pay</a></li>
+  <li><a href="/parabank/findtrans.htm">Find Transactions</a></li>
+  <li><a href="/parabank/updateprofile.htm">Update Contact Info</a></li>
+  <li><a href="/parabank/requestloan.htm">Request Loan</a></li>
+  <li><a href="/parabank/logout.htm">Log Out</a></li>
+</ul>
+						
+					
+				</div>
+				<div id="rightPanel">
+					
+
+
+
+<div ng-app="AddAccountApp" ng-controller="AddAccountCtrl" class="ng-scope">
+  <!-- ngIf: showForm --><div ng-if="showForm" class="ng-scope">
+    <h1 class="title">Open New Account</h1>
+    <form ng-submit="submit()" class="ng-valid ng-dirty ng-valid-parse">
+      <p><b>What type of Account would you like to open?</b></p>
+      <select id="type" class="input ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse" ng-init="types.selectedOption = '0'" ng-model="types.selectedOption">
+        
+          <option value="0" selected="selected">CHECKING</option>
+        
+          <option value="1">SAVINGS</option>
+        
+      </select>
+      <br /><br />
+      
+      <p><b>A minimum of $100.00 must be deposited into this account at time of opening. Please choose an existing account to transfer funds into the new account.</b></p>
+      <select id="fromAccountId" class="input ng-pristine ng-untouched ng-valid ng-not-empty" ng-init="getAccounts()" ng-model="accounts.selectedOption" ng-options="account.id for account in accounts track by account.id"><option label="13677" value="13677" selected="selected">13677</option></select>
+      <br /><br />
+      <div><input type="submit" class="button" value="Open New Account" /></div>
+    </form>
+  </div><!-- end ngIf: showForm -->
+
+  <!-- ngIf: showResult -->
+
+  <!-- ngIf: showError -->
+</div>
+
+<script>
+    var app = angular.module('AddAccountApp', []);
+    app.controller('AddAccountCtrl', function($scope, $http) {
+
+        $scope.showForm = true;
+        $scope.showResult = false;
+        $scope.showError = false;
+        $scope.types = [];
+        $scope.types.selectedOption;
+
+        $scope.getAccounts = function() {
+            $http.get("/parabank/services_proxy/bank/customers/12434/accounts", {timeout:30000})
+                .then(function(response) {
+                    $scope.accounts = response.data;
+                    $scope.accounts.selectedOption = $scope.accounts[0];
+                })
+                .catch(function(response) {
+                    showError(response);
+                });
+        }
+
+        $scope.submit = function() {
+            var url = "services_proxy/bank/createAccount?customerId=12434&amp;newAccountType="+ $scope.types.selectedOption + "&amp;fromAccountId=" + $scope.accounts.selectedOption.id;
+            $http.post(url, "", {timeout:30000})
+                .then(function(response) {
+                    $scope.showForm = false;
+                    $scope.showResult = true;
+                    $scope.newAccountId = response.data.id;
+                    $scope.newAccountUrl = "/parabank/activity.htm" + "?id=" + $scope.newAccountId;
+                })
+                .catch(function(response) {
+                    showError(response);
+                });
+        }
+        
+        function showError(error) {
+            $scope.showForm = false;
+            $scope.showResult = false;
+            $scope.showError = true;
+            var status = error.status &gt; 0 ? error.status : "timeout";
+            var data = error.data ? error.data : "Server timeout"
+            console.error("Server returned " + status + ": " + data);
+        }
+    });
+</script>
+				</div>
+			</div>
+		</div>
+		
+
+
+<div id="footermainPanel">
+  <div id="footerPanel">
+    <ul>
+      <li><a href="/parabank/index.htm">Home</a>| </li>
+      <li><a href="about.htm">About Us</a>| </li>
+      <li><a href="services.htm">Services</a>| </li>
+      <li><a href="http://www.parasoft.com/jsp/products.jsp">Products</a>| </li>
+      <li><a href="http://www.parasoft.com/jsp/pr/contacts.jsp">Locations</a>| </li>
+      <li><a href="http://forums.parasoft.com/">Forum</a>| </li>
+      <li><a href="/parabank/sitemap.htm">Site Map</a>| </li>
+      <li><a href="contact.htm">Contact Us</a></li>
+    </ul>
+    <p class="copyright">© Parasoft. All rights reserved.</p>
+    <ul class="visit">
+      <li>Visit us at:</li>
+      <li><a href="http://www.parasoft.com/" target="_blank">www.parasoft.com</a></li>
+    </ul>
+  </div>
+</div>
+	
+
+</body></html>

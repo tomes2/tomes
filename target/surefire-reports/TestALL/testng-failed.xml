@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestALL]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="AddAcount(failed)">
+    <classes>
+      <class name="TCs.OpenNewAccount">
+        <methods>
+          <include name="before"/>
+          <include name="openNewAccount" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TCs.OpenNewAccount -->
+    </classes>
+  </test> <!-- AddAcount(failed) -->
+</suite> <!-- Failed suite [TestALL] -->
