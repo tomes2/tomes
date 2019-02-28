@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-TestALL" class="navigator-link">
-              <span class="suite-name border-failed">TestALL</span>
+              <span class="suite-name border-passed">TestALL</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-TestALL" class="navigator-link ">
-                    <span>C:\Selenide\testing.xml</span>
+                    <span>D:\Selenium\Projekty\tomes\testing.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestALL" class="hide-methods failed suite-TestALL"> (hide)</a> <!-- hide-methods failed suite-TestALL -->
-                      <a href="#" panel-name="suite-TestALL" class="show-methods failed suite-TestALL"> (show)</a> <!-- show-methods failed suite-TestALL -->
-                    </span>
-                    <div class="method-list-content failed suite-TestALL">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestALL" title="TCs.OpenNewAccount" class="method navigator-link" hash-for-method="openNewAccount(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01)">openNewAccount(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TestALL -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestALL" title="TCs.CreateUser" class="method navigator-link" hash-for-method="CreateAccount(http://parabank.parasoft.com/parabank/index.htm, stefan, cutasiewicz, cudna 3, lolowo, ff, 44, 44444...)">CreateAccount(http://parabank.parasoft.com/parabank/index.htm, stefan, cutasiewicz, cudna 3, lolowo, ff, 44, 44444...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestALL" title="TCs.OpenNewAccount" class="method navigator-link" hash-for-method="openNewAccount(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01)">openNewAccount(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestALL -->
@@ -131,9 +122,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestALL" class="panel TestALL">
-          <div class="suite-TestALL-class-failed">
+          <div class="suite-TestALL-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">TCs.OpenNewAccount</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,35 +134,10 @@
                   </a> <!-- openNewAccount(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01) -->
                   <span class="method-name">openNewAccount</span>
                   <span class="parameters">(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01)</span>
-                  <div class="stack-trace">Element not found {By.id: fromAccountId}
-Expected: exist
-Screenshot: file:/c:/Selenide/build/reports/tests/1548768790181.0.png
-Page source: file:/c:/Selenide/build/reports/tests/1548768790181.0.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: Cannot locate option containing text: 13566
-	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:34)
-	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:131)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
-	at com.sun.proxy.$Proxy6.selectOptionContainingText(Unknown Source)
-	at Pages.OpenNewAccountPage.amountFromAccount(OpenNewAccountPage.java:37)
-	at TCs.OpenNewAccount.openNewAccount(OpenNewAccount.java:19)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option containing text: 13566
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;CPX-X4CQQ6UUL0Y&apos;, ip: &apos;10.106.163.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
-Driver info: driver.version: unknown
-	at com.codeborne.selenide.commands.SelectOptionContainingText.execute(SelectOptionContainingText.java:25)
-	at com.codeborne.selenide.commands.SelectOptionContainingText.execute(SelectOptionContainingText.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
-	... 33 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestALL-class-failed -->
+          </div> <!-- suite-TestALL-class-passed -->
           <div class="suite-TestALL-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -191,7 +157,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel TestALL -->
         <div panel-name="test-xml-TestALL" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Selenide\testing.xml</span>
+            <span class="header-content">D:\Selenium\Projekty\tomes\testing.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -252,16 +218,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CreateAccount')
 data.setCell(0, 2, 'TCs.CreateUser')
-data.setCell(0, 3, 22951);
+data.setCell(0, 3, 10935);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'openNewAccount')
 data.setCell(1, 2, 'TCs.OpenNewAccount')
-data.setCell(1, 3, 11296);
+data.setCell(1, 3, 6667);
 window.suiteTableData['TestALL']= { tableData: data, tableDiv: 'times-div-TestALL'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-TestALL">
               </div> <!-- times-div-TestALL -->
             </div> <!-- times-div -->
@@ -294,20 +260,18 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CreateAccount(http://parabank.parasoft.com/parabank/index.htm, stefan, cutasiewicz, cudna 3, lolowo, ff, 44, 44444...)</span>
-                <span class="method-start">5 ms</span>
+                <span class="method-start">3 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TCs.OpenNewAccount</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">23090 ms</span>
+                <span class="method-start">11076 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">openNewAccount(http://parabank.parasoft.com/parabank/index.htm, stefan01, stefan01)</span>
-                <span class="method-start">23090 ms</span>
+                <span class="method-start">11076 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

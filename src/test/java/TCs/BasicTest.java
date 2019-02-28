@@ -37,6 +37,7 @@ public abstract class BasicTest {
     OpenNewAccountPage ona = new OpenNewAccountPage();
     AccountsOverviewPage aop = new AccountsOverviewPage();
     AccountDetailsPage adp = new AccountDetailsPage();
+    GenetekaPage gp = new GenetekaPage();
 
 
 
@@ -105,6 +106,10 @@ public abstract class BasicTest {
         return arrayObject;
     }
 
-
+    @DataProvider
+    public Object[][] inputGene() {
+        Object[][] arrayObject = getExcelData(this.getClass().getClassLoader().getResource("Input.xls").getPath(), "Gene");
+        return arrayObject;
+    }
 
 }

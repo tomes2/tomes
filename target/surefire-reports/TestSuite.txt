@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.658 s <<< FAILURE! - in TestSuite
-openNewAccount(TCs.OpenNewAccount)  Time elapsed: 11.303 s  <<< FAILURE!
-com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {By.id: fromAccountId}
-Expected: exist
-	at TCs.OpenNewAccount.openNewAccount(OpenNewAccount.java:19)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate option containing text: 13566
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'CPX-X4CQQ6UUL0Y', ip: '10.106.163.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: driver.version: unknown
-	at TCs.OpenNewAccount.openNewAccount(OpenNewAccount.java:19)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.508 s - in TestSuite
